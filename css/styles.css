@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem; /*1em = 100% = 16px; and 1em inherits from its parent while 1rem does not*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin: 20px auto auto auto;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+  background-color: #E4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 15%;
+}
+
+.skills-logo {
+  width: 10%;
+}
