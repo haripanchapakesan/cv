@@ -1,29 +1,38 @@
 body {
+  font-family: 'Merriweather', serif;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
 }
 
 h1 {
-  font-size: 5.625rem; /*1em = 100% = 16px; and 1em inherits from its parent while 1rem does not*/
-  margin: 50px auto 0 auto;
+  color: #66BFBF;
   font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /*1em = 100% = 16px; and 1em inherits from its parent while 1rem does not*/
+  line-height: 2;
+  margin: 50px auto 0 auto;
 }
 
 h2 {
+  color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    margin: 20px auto auto auto;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 0 auto auto auto;
 }
 
 h3 {
+  color: #11999E;
   font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
 }
 
 .top-container {
   background-color: #E4f9f5;
-  position: relative;
   padding-top: 100px;
+  position: relative;
 }
 
 .top-cloud {
@@ -33,9 +42,9 @@ h3 {
 }
 
 .bottom-cloud {
-  position: absolute;
-  left: 300px;
   bottom: 300px;
+  left: 300px;
+  position: absolute;
 }
 
 .profile-pic {
