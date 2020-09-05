@@ -86,10 +86,16 @@ p {
   width: 45%;
 }
 
-.skills-logo {
-  width: 25%;
+.skill-image-left {
   float: left;
   margin-right: 30px;
+  width: 25%;
+}
+
+.skill-image-right {
+  float: right;
+  margin-left: 20px;
+  width: 25%;
 }
 
 .skill-row {
